@@ -21,7 +21,6 @@ class TransactionsRepository {
   }
 
   public all(): Transaction[] {
-    console.log('this.transactions', this.transactions);
     return this.transactions;
   }
 
